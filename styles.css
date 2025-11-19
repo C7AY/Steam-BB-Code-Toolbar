@@ -1,0 +1,86 @@
+.steam-bb-toolbar {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 3px;
+  padding: 6px;
+  background: linear-gradient(to bottom, #2a475e 0%, #1b2838 100%);
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin-bottom: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  overflow-x: auto;
+  overflow-y: hidden;
+ // max-width: 100%;
+}
+
+.steam-bb-toolbar::-webkit-scrollbar {
+  height: 4px;
+}
+
+.steam-bb-toolbar::-webkit-scrollbar-track {
+  background: #1b2838;
+}
+
+.steam-bb-toolbar::-webkit-scrollbar-thumb {
+  background: #67c1f5;
+  border-radius: 2px;
+}
+
+.steam-bb-toolbar::-webkit-scrollbar-thumb:hover {
+  background: #78d1ff;
+}
+
+.bb-button {
+  min-width: 28px;
+  height: 28px;
+  padding: 3px 6px;
+  background: linear-gradient(to bottom, #67c1f5 5%, #417a9b 100%);
+  border: 1px solid #1b2838;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.15s;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.bb-button:hover {
+  background: linear-gradient(to bottom, #78d1ff 5%, #5290b5 100%);
+  border-color: #67c1f5;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.bb-button:active {
+  background: linear-gradient(to bottom, #417a9b 5%, #67c1f5 100%);
+  transform: translateY(0);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Эмодзи кнопки с немного увеличенным размером */
+.bb-button:nth-child(8),
+.bb-button:nth-child(9),
+.bb-button:nth-child(10),
+.bb-button:nth-child(11),
+.bb-button:nth-child(12),
+.bb-button:nth-child(13),
+.bb-button:nth-child(14),
+.bb-button:nth-child(15) {
+  font-size: 14px;
+  line-height: 1;
+}
+
+/* Контейнер для обертки textarea */
+.steam-bb-container {
+  position: relative;
+  display: block;
+}
