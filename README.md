@@ -73,6 +73,7 @@
 
 ## 🤝 Разработка
 Файлы проекта
+
 manifest.json
 content.js
 styles.css
