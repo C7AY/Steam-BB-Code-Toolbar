@@ -9,6 +9,12 @@
 - 🎯 **Стилизация под Steam**: дизайн панели выполнен в стиле интерфейса Steam
 
 ![Image alt](https://raw.githubusercontent.com/C7AY/Steam-BB-Code-Toolbar/refs/heads/Branch/images/1.png)
+---
+![Image alt](https://raw.githubusercontent.com/C7AY/Steam-BB-Code-Toolbar/refs/heads/Branch/images/2.png)
+---
+![Image alt](https://raw.githubusercontent.com/C7AY/Steam-BB-Code-Toolbar/refs/heads/Branch/images/3.png)
+
+---------
 
 ## 📦 Установка
 
